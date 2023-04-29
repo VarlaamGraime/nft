@@ -2,11 +2,11 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 2.8125rem;
     line-height: 130%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .centerGrid {
@@ -18,12 +18,12 @@
 }
 
 .gridCards {
-    margin-top: 65px;
+    margin-top: 4.0625rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 70px;
-    max-width: 650px;
+    grid-gap: 4.375rem;
+    max-width: 40.625rem;
 
 }
 
@@ -31,11 +31,11 @@
 
 @media (max-width: 768px) {
     .gridCards {
-        margin-top: 65px;
+        margin-top: 4.0625rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
-        grid-gap: 70px;
+        grid-gap: 4.375rem;
     }
 
 }
@@ -45,25 +45,25 @@
 
 
 .cardBlock {
-    width: 300px;
-    height: 310px;
-    left: 635px;
-    top: 338px;
+    width: 18.75rem;
+    height: 19.375rem;
+    left: 39.6875rem;
+    top: 21.125rem;
     background: rgba(51, 62, 81, 1);
-    backdrop-filter: blur(30.5px);
-    border-radius: 20px;
+    backdrop-filter: blur(1.875rem);
+    border-radius: 1.25rem;
     z-index: 2;
 }
 
 .cardBgBlock {
-    width: 260px;
-    height: 30px;
+    width: 16.25rem;
+    height: 1.875rem;
     background: rgba(51, 62, 81, 0.6);
-    backdrop-filter: blur(27.5px);
-    border-radius: 20px;
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-top: 245px;
+    backdrop-filter: blur(1.6875rem);
+    border-radius: 1.25rem;
+    margin-top: 3.75rem;
+    margin-left: 1.25rem;
+    margin-top: 15.3125rem;
 
 }
 
@@ -73,25 +73,25 @@
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
-    line-height: 25px;
+    line-height: 1.5625rem;
     text-align: center;
     letter-spacing: -0.7px;
     color: #FFFFFF;
     position: absolute;
     z-index: 2;
-    bottom: 50px;
+    bottom: 3.125rem;
 }
 
 
 .boxSmile {
     position: relative;
     display: flex;
-    padding-top: 50px;
+    padding-top: 3.125rem;
     justify-content: center;
 }
 
 .blurSmile {
-    filter: blur(7px);
+    filter: blur(0.4375rem);
     position: absolute;
 }
 
@@ -102,33 +102,33 @@
 
 .elipsCardsBgTop {
     position: absolute;
-    width: 440.01px;
-    height: 440.01px;
-    left: 1213.96px;
+    width: 27.5rem;
+    height: 27.5rem;
+    left: 75.8125rem;
     top: -0.16px;
     background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
-    filter: blur(86px);
+    filter: blur(5.375rem);
     transform: rotate(11.97deg);
 }
 
 .elipsCardsBgBot {
     position: absolute;
-    width: 440.01px;
-    height: 440.01px;
-    left: 386.24px;
-    top: 486px;
+    width: 27.5rem;
+    height: 27.5rem;
+    left: 24.125rem;
+    top: 30.375rem;
     background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
-    filter: blur(86px);
+    filter: blur(5.375rem);
     transform: rotate(11.97deg);
 }
 
 .elipsCardsSmTopSemi {
     box-sizing: border-box;
     position: absolute;
-    width: 151.89px;
-    height: 151.89px;
-    left: 1426px;
-    top: -90.95px;
+    width: 9.4375rem;
+    height: 9.4375rem;
+    left: 89.125rem;
+    top: -5.625rem;
     background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
     transform: rotate(-25.73deg);
     border-radius: 50%;
@@ -138,10 +138,10 @@
 .elipsCardsSmTop {
     box-sizing: border-box;
     position: absolute;
-    width: 84px;
-    height: 84px;
-    left: 495.73px;
-    top: 119.65px;
+    width: 5.25rem;
+    height: 5.25rem;
+    left: 30.9375rem;
+    top: 7.4375rem;
     border-radius: 50%;
     background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
     transform: rotate(7.77deg);
@@ -149,12 +149,12 @@
 
 .elipsCardsSmBot {
     position: absolute;
-    width: 131.66px;
-    height: 131.66px;
-    left: 1334.99px;
-    top: 800.16px;
+    width: 8.1875rem;
+    height: 8.1875rem;
+    left: 83.375rem;
+    top: 50rem;
     background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
-    filter: blur(12px);
+    filter: blur(0.75rem);
     transform: rotate(-25.73deg);
     border-radius: 50%;
 }
