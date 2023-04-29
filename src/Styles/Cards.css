@@ -6,7 +6,7 @@
     line-height: 130%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 .centerGrid {
@@ -14,15 +14,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .gridCards {
     margin-top: 65px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 70px;
     max-width: 650px;
+    height: 100%;
 }
+
+
 
 .cardBlock {
     width: 300px;
@@ -44,6 +49,7 @@
     margin-top: 60px;
     margin-left: 20px;
     margin-top: 245px;
+
 }
 
 
@@ -60,6 +66,7 @@
     z-index: 2;
     bottom: 50px;
 }
+
 
 .boxSmile {
     position: relative;

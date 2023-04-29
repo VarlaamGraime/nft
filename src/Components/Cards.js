@@ -45,6 +45,7 @@ const Cards = () => {
                     <div className='cardBgBlock'/>
                 </div>
             </div>
+            
             <div className='elipsCardsBgTop'></div>
             <div className='elipsCardsBgBot'></div>
             <div className='elipsCardsSmTopSemi'></div>
