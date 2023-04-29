@@ -24,8 +24,23 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 70px;
     max-width: 650px;
-    height: 100%;
+
 }
+
+
+
+@media (max-width: 768px) {
+    .gridCards {
+        margin-top: 65px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 70px;
+    }
+
+}
+
+
 
 
 
@@ -101,7 +116,7 @@
     width: 440.01px;
     height: 440.01px;
     left: 386.24px;
-    top: 666px;
+    top: 486px;
     background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
     filter: blur(86px);
     transform: rotate(11.97deg);
