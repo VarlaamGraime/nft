@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import {React, useState} from "react";
+import Body from "./Components/Body";
+import Header from "./Components/Header";
+import Style from './Styles/Style.css'
+import Cards from "./Components/Cards";
 
 function App() {
+  const [isTrueCards, setIsTrueCards] = useState(true)
+
+  function openCards() {
+    setIsTrueCards(false)
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {isTrueCards ? [<Header onChange={openCards} />, <Body />] :<Cards/>  }
     </div>
-  );
+  );  
 }
 
 export default App;

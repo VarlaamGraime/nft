@@ -1,0 +1,138 @@
+.titleCards {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+.centerGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridCards {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    max-width: 650px;
+}
+
+.cardBlock {
+    width: 300px;
+    height: 310px;
+    left: 635px;
+    top: 338px;
+    background: rgba(51, 62, 81, 1);
+    backdrop-filter: blur(30.5px);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.cardBgBlock {
+    width: 260px;
+    height: 30px;
+    background: rgba(51, 62, 81, 0.6);
+    backdrop-filter: blur(27.5px);
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 245px;
+}
+
+
+.cardsText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.7px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+}
+
+.boxSmile {
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.blurSmile {
+    filter: blur(7px);
+    position: absolute;
+}
+
+.smileImage {
+    position: absolute;
+    z-index: 2;
+}
+
+.elipsCardsBgTop {
+    position: absolute;
+    width: 440.01px;
+    height: 440.01px;
+    left: 1213.96px;
+    top: -0.16px;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+}
+
+.elipsCardsBgBot {
+    position: absolute;
+    width: 440.01px;
+    height: 440.01px;
+    left: 386.24px;
+    top: 666px;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+}
+
+.elipsCardsSmTopSemi {
+    box-sizing: border-box;
+    position: absolute;
+    width: 151.89px;
+    height: 151.89px;
+    left: 1426px;
+    top: -90.95px;
+    background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+    transform: rotate(-25.73deg);
+    border-radius: 50%;
+
+}
+
+.elipsCardsSmTop {
+    box-sizing: border-box;
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 495.73px;
+    top: 119.65px;
+    border-radius: 50%;
+    background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
+    transform: rotate(7.77deg);
+}
+
+.elipsCardsSmBot {
+    position: absolute;
+    width: 131.66px;
+    height: 131.66px;
+    left: 1334.99px;
+    top: 800.16px;
+    background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+    filter: blur(12px);
+    transform: rotate(-25.73deg);
+    border-radius: 50%;
+}

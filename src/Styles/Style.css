@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    background-color: rgba(29, 37, 50, 1);
+    height: 100vh;
+}
