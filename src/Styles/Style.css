@@ -11,3 +11,48 @@ body {
     background-color: rgba(29, 37, 50, 1);
     height: 100vh;
 }
+
+@media (max-width: 320px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1600px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        font-size: 14px;
+    }
+
+    .marginLogo {
+        margin-left: 9.75rem;
+    }
+
+    .marginHome {
+        margin-left: 14rem;
+    }
+
+    .flexBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        margin-top: -2.125rem;
+        margin-left: 3rem;
+    }
+
+    .boxImage {
+        margin-left: 2rem;
+        margin-top: -5rem;
+        scale: 0.8;
+    }
+
+
+
+}
