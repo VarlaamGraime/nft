@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nft/static/css/main.b91d3cd7.css",
-    "main.js": "/nft/static/js/main.c7852a03.js",
+    "main.js": "/nft/static/js/main.6493f022.js",
     "static/media/man.png": "/nft/static/media/man.b9f3004bbfbd34fc7bf8.png",
     "static/media/GTWalsheimPro-Regular.ttf": "/nft/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
     "static/media/GTWalsheimPro-Regular.woff": "/nft/static/media/GTWalsheimPro-Regular.1668df1c1c97770e0490.woff",
@@ -14,10 +14,10 @@
     "static/media/smileCards4.png": "/nft/static/media/smileCards4.c44b08005ef2b890d55b.png",
     "index.html": "/nft/index.html",
     "main.b91d3cd7.css.map": "/nft/static/css/main.b91d3cd7.css.map",
-    "main.c7852a03.js.map": "/nft/static/js/main.c7852a03.js.map"
+    "main.6493f022.js.map": "/nft/static/js/main.6493f022.js.map"
   },
   "entrypoints": [
     "static/css/main.b91d3cd7.css",
-    "static/js/main.c7852a03.js"
+    "static/js/main.6493f022.js"
   ]
 }
