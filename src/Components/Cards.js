@@ -9,7 +9,8 @@ import smileCards4 from '../Assets/smileCards4.png'
 
 const Cards = () => {
     return (
-        <div className='centerGrid'>
+        <div className='overflH'>
+            <div className='centerGrid'>
             <p className='titleCards'>Что даст тебе обучение?</p>
             <div className='gridCards'>
                 <div className='cardBlock'>
@@ -53,6 +54,7 @@ const Cards = () => {
                 <div className='elipsCardsSmBot'></div>
             </div>
        
+            </div>
         </div>
     );
 };

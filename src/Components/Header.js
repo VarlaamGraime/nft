@@ -1,10 +1,11 @@
 import {React,useState} from 'react';
 import Styles from '../Styles/Header.css'
 import logo from '../Assets/NFT.png'
-
+import ModalMobile from './ModalMobile';
 
 const Header = ( {onChange} ) => {
-
+ 
+    const [modalActiveMob, setModalActiveMob] = useState()
     function openCards() {
         onChange(false);
       }
@@ -25,6 +26,14 @@ const Header = ( {onChange} ) => {
                 </div>
                 <div>
                     <button className='buttonArea marginArea'>Личный кабинет</button>
+                </div>
+
+                <div>
+                    <button className='buttonMobile '>
+                        <div className='buttonMobileHalf'></div>
+                        <div className='buttonMobileHalf'></div>
+                    </button>
+                    <ModalMobile activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
                 </div>
             </div>
             

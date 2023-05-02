@@ -1,3 +1,7 @@
+.overflH {
+    overflow: hidden;
+}
+
 .titleCards {
     font-family: 'Inter';
     font-style: normal;
@@ -24,24 +28,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 4.375rem;
     max-width: 40.625rem;
-
 }
-
-
-
-@media (max-width: 768px) {
-    .gridCards {
-        margin-top: 4.0625rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        grid-gap: 4.375rem;
-    }
-
-}
-
-
-
 
 
 .cardBlock {
@@ -157,4 +144,65 @@
     filter: blur(0.75rem);
     transform: rotate(-25.73deg);
     border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+
+    .titleCards,
+    .centerGrid,
+    .gridCards,
+    .cardBlock,
+    .cardBgBlock,
+    .cardsText,
+    .boxSmile,
+    .blurSmile,
+    .smileImage,
+    .elipsCardsBgTop,
+    .elipsCardsBgBot,
+    .elipsCardsSmTopSemi,
+    .elipsCardsSmTop,
+    .elipsCardsSmBot {
+        scale: 0.9;
+    }
+
+    .gridCards {
+        margin-top: -2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1rem;
+        z-index: 3;
+
+    }
+
+    .centerGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .overflH {
+        overflow: visible;
+    }
+
+    .cardsText {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .gridCards {
+        margin-top: 4.0625rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 4.375rem;
+    }
+
 }
