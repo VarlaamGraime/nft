@@ -16,6 +16,7 @@ body {
     height: 100vh;
     margin-top: -8.125rem;
     margin-left: 20rem;
+    pointer-events: none
 }
 
 .titleBody {
@@ -27,7 +28,7 @@ body {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     width: 44.8125rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 .subTitleBody {

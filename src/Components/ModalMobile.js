@@ -5,7 +5,12 @@ import logo from '../Assets/NFT.png'
 import cross from '../Assets/cross.png'
 
 
-const ModalMobile = ({activeMob,setActiveMob}) => {
+const ModalMobile = ({ activeMob, setActiveMob, onChange }) => {
+    
+    function openCards() {
+        onChange(false);
+      }
+
     return (
         <div className={activeMob ? "modalMob activeMob" : "modalMob" } onClick={()=>setActiveMob(false)}>
             <div className={activeMob ? "modalMobContent activeMob" : "modalMobContent" }   onClick={e => e.stopPropagation()}>
@@ -18,7 +23,7 @@ const ModalMobile = ({activeMob,setActiveMob}) => {
                             <div className='flexColumnModal'>
                                 <p className='textModal marginModalText'>Главная</p>
                                 <p
-                                    // onClick={openCards}
+                                    onClick={openCards}
                                     className='textModal marginModalTextLearn'>Что даст обучение</p>
                                 <button className=' ModalButt'>Личный кабинет</button>
                             </div>

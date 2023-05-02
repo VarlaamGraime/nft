@@ -206,3 +206,17 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .titleCards {
+        margin-top: 1rem;
+    }
+
+    .gridCards {
+        margin-top: 1rem;
+    }
+
+    .cardsText2Fr {
+        margin-left: 2rem;
+    }
+}

@@ -26,7 +26,7 @@ const Cards = () => {
                         <img className='smileImage'  src={smileCards2}></img>
                         <img className='blurSmile'  src={smileCards2}></img>
                     </div>
-                    <p className='cardsText'>Поймёшь, как выбирать правильные дропы</p>
+                    <p className='cardsText cardsText2Fr'>Поймёшь, как выбирать правильные дропы</p>
                     <div className='cardBgBlock'/>
                 </div>
                 <div className='cardBlock'>
@@ -42,7 +42,7 @@ const Cards = () => {
                         <img  className='smileImage'  src={smileCards4}></img>
                         <img  className='blurSmile' src={smileCards4}></img>
                     </div>
-                    <p className='cardsText'>Узнаешь кто такие холдеры и флипперы</p>                    
+                    <p className='cardsText cardsText2Fr'>Узнаешь кто такие холдеры и флипперы</p>                    
                     <div className='cardBgBlock'/>
                 </div>
             </div>

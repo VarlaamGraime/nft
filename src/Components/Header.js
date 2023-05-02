@@ -35,9 +35,9 @@ const Header = ( {onChange} ) => {
                         <div className='buttonMobileHalf'></div>
                     </button>
                 </div>
-                <ModalMobile activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
 
             </div>
+            <ModalMobile onChange={openCards} activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
             
         </div>
     );

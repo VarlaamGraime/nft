@@ -21,8 +21,8 @@ const Body = () => {
                 <p className='titleBody'>Не упусти возможность войти в   <span style={{ fontWeight: 'bold' }}>прибыльную нишу</span></p>
                 <p className='subTitleBody'>Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
                 <button onClick={()=> setModalActive(true)} className='buttonBody'>Начать зарабатывать на NFT</button>
-                <ModalW active={modalActive} setActive={setModalActive} />
             </div>
+            <ModalW active={modalActive} setActive={setModalActive} />
             
             <div className='boxImage'>
                 <div className='elipsBodyGreen'/>
