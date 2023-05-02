@@ -89,6 +89,7 @@ body {
         justify-content: center;
         margin-top: -12.125rem;
         margin-left: 10rem;
+
     }
 
     .boxImage {
@@ -431,6 +432,19 @@ body {
         height: 1.8333rem;
         cursor: pointer;
         background: transparent;
+    }
+
+    .elipsCardsSmTop {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 21.91px;
+        height: 21.91px;
+        left: 22.96px;
+        top: 103px;
+
+        background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
+        transform: rotate(7.77deg);
     }
 
 }
