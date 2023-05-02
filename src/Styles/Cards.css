@@ -209,14 +209,87 @@
 
 @media (max-width: 480px) {
     .titleCards {
-        margin-top: 1rem;
+        margin-top: 4rem;
+        width: 180px;
+        height: 60px;
+        left: 68px;
+        top: 40px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 130%;
+        /* or 30px */
+
+        text-align: center;
     }
 
     .gridCards {
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .cardsText2Fr {
         margin-left: 2rem;
+    }
+
+    .elipsCardsBgTop {
+        position: absolute;
+        width: 137.41px;
+        height: 137.41px;
+        left: 230.5px;
+        top: -7rem;
+
+        background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.55) 25.59%, rgba(255, 14, 222, 0.55) 100.44%);
+        filter: blur(86px);
+        transform: rotate(11.97deg);
+    }
+
+    .elipsCardsSmTopSemi {
+        position: absolute;
+        width: 87.59px;
+        height: 87.59px;
+        left: 260px;
+        top: -25.97px;
+        background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+        transform: rotate(-25.73deg);
+    }
+
+    .elipsCardsSmTop {
+        position: absolute;
+        width: 21.91px;
+        height: 21.91px;
+        left: 4rem;
+        top: 103px;
+        background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
+        transform: rotate(7.77deg);
+    }
+
+    .elipsCardsSmBot {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 62.86px;
+        height: 62.86px;
+        left: 235px;
+        top: 1272.29px;
+
+        background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+        filter: blur(8.5px);
+        transform: rotate(-25.73deg);
+    }
+
+    .titleCards,
+    .centerGrid,
+    .gridCards,
+    .cardBlock,
+    .cardBgBlock,
+    .cardsText,
+    .elipsCardsBgTop,
+    .elipsCardsBgBot,
+    .elipsCardsSmTopSemi,
+    .elipsCardsSmTop,
+    .elipsCardsSmBot {
+        scale: 1;
     }
 }
