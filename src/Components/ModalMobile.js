@@ -15,14 +15,12 @@ const ModalMobile = ({activeMob,setActiveMob}) => {
                         <img className='logoImg' src={logo} />
                         <img className={activeMob ? "modalMob activeMob crossImgModal  " : "modalMob crossImgModal  "}   onClick={() => setActiveMob(false)} src={cross} />
                         <div className='flexRow container'>
-                            <div>
-                                <p className='titleHeader marginHome'>Главная</p>
-                            </div>
-                            <div>
-                                <p onClick={openCards} className='titleHeader marginLearn'>Что даст обучение</p>
-                            </div>
-                            <div>
-                                <button className='buttonArea marginArea'>Личный кабинет</button>
+                            <div className='flexColumnModal'>
+                                <p className='textModal marginModalText'>Главная</p>
+                                <p
+                                    // onClick={openCards}
+                                    className='textModal marginModalTextLearn'>Что даст обучение</p>
+                                <button className=' ModalButt'>Личный кабинет</button>
                             </div>
                         </div>
                     </div>
