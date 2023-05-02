@@ -18,12 +18,12 @@ const Header = ( {onChange} ) => {
                 <div className='elipseLogo'></div>
                 <img className='logoImg' src={logo } />
             </div>
-            <div className='flexRow container'>
+            <header className='flexRow container'>
                 <div>
-                    <p className='titleHeader marginHome'>Главная</p>
+                    <nav className='titleHeader marginHome'>Главная</nav>
                 </div>
                 <div>
-                    <p onClick={openCards} className='titleHeader marginLearn'>Что даст обучение</p>
+                    <nav onClick={openCards} className='titleHeader marginLearn'>Что даст обучение</nav>
                 </div>
                 <div>
                     <button className='buttonArea marginArea'>Личный кабинет</button>
@@ -36,7 +36,7 @@ const Header = ( {onChange} ) => {
                     </button>
                 </div>
 
-            </div>
+            </header>
             <ModalMobile onChange={openCards} activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
             
         </div>

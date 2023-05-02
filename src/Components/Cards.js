@@ -12,7 +12,7 @@ const Cards = () => {
         <div className='overflH'>
             <div className='centerGrid'>
             <p className='titleCards'>Что даст тебе обучение?</p>
-            <div className='gridCards'>
+            <section className='gridCards'>
                 <div className='cardBlock'>
                     <div className='boxSmile'>
                         <img className='smileImage'  src={smileCards1}></img>
@@ -45,7 +45,7 @@ const Cards = () => {
                     <p className='cardsText cardsText2Fr'>Узнаешь кто такие холдеры и флипперы</p>                    
                     <div className='cardBgBlock'/>
                 </div>
-            </div>
+            </section>
             <div className='elipsesCards'>
                 <div className='elipsCardsBgTop'></div>
                 <div className='elipsCardsBgBot'></div>

@@ -14,22 +14,22 @@ const ModalMobile = ({ activeMob, setActiveMob, onChange }) => {
     return (
         <div className={activeMob ? "modalMob activeMob" : "modalMob" } onClick={()=>setActiveMob(false)}>
             <div className={activeMob ? "modalMobContent activeMob" : "modalMobContent" }   onClick={e => e.stopPropagation()}>
-                <div>
+                <header>
                     <div className='flexRow marginLogo logoModal'>
                         <div className='elipseLogo'></div>
                         <img className='logoImg' src={logo} />
                         <img className={activeMob ? "modalMob activeMob crossImgModal  " : "modalMob crossImgModal  "}   onClick={() => setActiveMob(false)} src={cross} />
                         <div className='flexRow container'>
                             <div className='flexColumnModal'>
-                                <p className='textModal marginModalText'>Главная</p>
-                                <p
+                                <nav className='textModal marginModalText'>Главная</nav>
+                                <nav
                                     onClick={openCards}
-                                    className='textModal marginModalTextLearn'>Что даст обучение</p>
+                                    className='textModal marginModalTextLearn'>Что даст обучение</nav>
                                 <button className=' ModalButt'>Личный кабинет</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                </header>
             </div>
         </div>
     );

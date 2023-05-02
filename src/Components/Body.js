@@ -14,16 +14,16 @@ const Body = () => {
 
     return (
 
-        <div className='flexBodyRow'>
+        <main className='flexBodyRow'>
             
-            <div className='flexBody'>
+            <article className='flexBody'>
                 <p className='titleBody'>Не упусти возможность войти в   <span style={{ fontWeight: 'bold' }}>прибыльную нишу</span></p>
                 <p className='subTitleBody'>Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
                 <button onClick={()=> setModalActive(true)} className='buttonBody'>Начать зарабатывать на NFT</button>
-            </div>
+            </article>
             <ModalW active={modalActive} setActive={setModalActive} />
             
-                <div className='boxImage'>
+                <section className='boxImage'>
                     <div className='elipsBodyGreen'/>
                     <div className='elipsBodyViol'/>
                     <img className='manImg' src={man}/>
@@ -33,9 +33,9 @@ const Body = () => {
                     <img className='Lightning1Img' src={Lightning1}/>
                     <img className='Lightning2Img' src={Lightning2} />
                     
-                </div>
+                </section>
 
-            </div>
+            </main>
     );
 };
 
