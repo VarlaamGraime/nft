@@ -5,7 +5,8 @@ import ModalMobile from './ModalMobile';
 
 const Header = ( {onChange} ) => {
  
-    const [modalActiveMob, setModalActiveMob] = useState()
+    const [modalActiveMob, setModalActiveMob] = useState(false)
+
     function openCards() {
         onChange(false);
       }
@@ -29,12 +30,13 @@ const Header = ( {onChange} ) => {
                 </div>
 
                 <div>
-                    <button className='buttonMobile '>
+                    <button onClick={()=> setModalActiveMob(true)} className='buttonMobile'>
                         <div className='buttonMobileHalf'></div>
                         <div className='buttonMobileHalf'></div>
                     </button>
-                    <ModalMobile activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
                 </div>
+                <ModalMobile activeMob={modalActiveMob} setActiveMob={setModalActiveMob}/>
+
             </div>
             
         </div>

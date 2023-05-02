@@ -1,0 +1,55 @@
+.modalMob {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(48, 9, 97, 0.3);
+    backdrop-filter: blur(1.0625rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: .5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalMob.activeMob {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+.modalMobContent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32.3333rem;
+    height: 32.6667rem;
+    background: radial-gradient(42.84% 203.07% at 15.58% -40.39%, #323E51 0%, #1D2532 100%);
+    border-radius: 1.875rem;
+    z-index: 9999;
+    margin-left: 4rem;
+    margin-top: -14rem;
+}
+
+.logoModal {
+    margin-top: 5rem;
+}
+
+.crossModal {
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.crossImgModal {
+    position: absolute;
+    margin-left: 23rem;
+    margin-top: 5rem;
+    width: 1.8333rem;
+    height: 1.8333rem;
+    cursor: pointer;
+    background: transparent;
+}
