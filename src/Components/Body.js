@@ -13,7 +13,6 @@ const Body = () => {
  const [modalActive, setModalActive] = useState(false)
 
     return (
-        <div>
 
         <div className='flexBodyRow'>
             
@@ -24,20 +23,19 @@ const Body = () => {
             </div>
             <ModalW active={modalActive} setActive={setModalActive} />
             
-            <div className='boxImage'>
-                <div className='elipsBodyGreen'/>
-                <div className='elipsBodyViol'/>
-                <img className='manImg' src={man}/>
-                <img className='pigImg' src={pig}/>
-                <img className='moneyImg' src={money}/>
-                <img className='smileImg' src={smile}/>
-                <img className='Lightning1Img' src={Lightning1}/>
-                <img className='Lightning2Img' src={Lightning2} />
-                
-            </div>
+                <div className='boxImage'>
+                    <div className='elipsBodyGreen'/>
+                    <div className='elipsBodyViol'/>
+                    <img className='manImg' src={man}/>
+                    <img className='pigImg' src={pig}/>
+                    <img className='moneyImg' src={money}/>
+                    <img className='smileImg' src={smile}/>
+                    <img className='Lightning1Img' src={Lightning1}/>
+                    <img className='Lightning2Img' src={Lightning2} />
+                    
+                </div>
 
             </div>
-        </div>
     );
 };
 
